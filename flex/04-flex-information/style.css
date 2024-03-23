@@ -10,6 +10,10 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px; /* margin botton */
 }
 
 /* do not edit this footer */
@@ -24,3 +28,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  gap: 52px;
+}
+
+li {
+  width: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* perhaps don't always include align-items and keep the code simple */
